@@ -1,0 +1,7 @@
+## Mac crap
+*.DS_Store
+
+node_modules
+bower_components
+dist
+.idea

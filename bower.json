@@ -1,0 +1,11 @@
+{
+  "name": "fagkveld-frp",
+  "version": "0.0.0",
+  "authors": [
+    "Olav Haugen <olahau@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bacon": "~0.7.41"
+  }
+}
