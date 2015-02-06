@@ -5,11 +5,11 @@ window.onload = function () {
 
 	var clickStream = Bacon.fromEventTarget(button, 'click');
 	var clickCountStream = clickStream
-		.bufferWithTime(300)
-		.map(function (events) {
-			return events.length;
-		});
-		
+	.bufferWithTime(300)
+	.map(function (events) {
+		return events.length;
+	});
+	
 	var singleClickStream = clickCountStream.filter(function (count) { 
 		return count === 1; 
 	});
